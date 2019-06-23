@@ -1,0 +1,12 @@
+# .gqlgen.yml
+schema: server/schema.graphql
+exec:
+  filename: server/generated.go
+models:
+  Post:
+    model: workspace/prisma-gqlgen/prisma-client.Post
+  User:
+    model: workspace/prisma-gqlgen/prisma-client.User
+resolver:
+  filename: tmp/resolver.go
+  type: Resolver
