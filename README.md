@@ -1,4 +1,4 @@
-# prisma-hello-world
+# prisma-gqlgen
 ## Set up
 - Prisma Client
   > `git clone https://github.com/sho-zy/prisma-gqlgen.git`  
